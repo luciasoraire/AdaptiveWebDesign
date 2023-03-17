@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <h1 id="title">freeCodeCamp Survey Form</h1>
+  <p id="description">Thank you for taking the time to help us improve the platform</p>
+  <form id="survey-form" method="get">
+    <label id="name-label">Name <input id="name" type="text" required placeholder=" Lucía"/></label>
+    <label id="email-label">e-Mail <input id="email" type="email" required placeholder=" lucia@gmail.com"/></label>
+    <label id="number-label">Age <input id="number" type="number" min="18" max="45" placeholder=" 24"/></label>
+
+    <select id="dropdown">
+      <option>Which option best describes your current role?</option>
+    <option>Student</option>
+    <option>Full Time Job</option>
+    <option>Full Time Learner</option></select>
+  
+  <label class="question">Would you recommend freeCodeCamp to a friend?
+  </label>
+  <label class="definitely"><input type="radio" name="option" value="definitely"/> Definitely 
+  </label>
+    <label class="maybe"><input type="radio"name="option" value="maybe"/> Maybe
+  </label>
+    <label class="not-sure"><input type="radio"name="option"value="not-sure"/> Not sure
+  </label>
+
+  <label class="question">What would you like to see improved? (Check all that apply) </label>
+    <label>
+    <input type="checkbox" value="frontend"/> FrontEnd Projects</label>
+  <label><input type="checkbox" value="backend"/> BackEnd Projects</label>
+  <label><input type="checkbox" value="data"/> Data Visualization</label>
+  <label><input type="checkbox" value="challenges"/> Challenges</label>
+
+  <label class="question">Any comments or suggestions?</label> <textarea></textarea>
+
+  <input type="submit" id="submit" value="Submit"/>
+  </form>
+</body>
+
+<html>
