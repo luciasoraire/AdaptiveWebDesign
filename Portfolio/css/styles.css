@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+  }
+  
+  ul{
+    list-style: none;
+    color: white;
+  }
+  
+  ul a{
+    color: white;
+    text-decoration: none;
+    padding: 30px;
+  }
+  
+  
+  nav{
+    width: 100vw;
+  }
+  #navbar{
+    background-color: #DBBB8C;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    top: 0;
+ 
+    position: fixed;
+  }
+  
+  #welcome-section{
+    height: 100vh;
+    background-color: #B3B8AA;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  h1{
+    font-size: 40px;
+  }
+  .wd{
+    color: beige;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  
+  #projects{
+   background-color: #DBBB8C;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  h2{
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .img{
+    max-width: 300px;
+    height:500px;
+    object-fit: cover;
+  }
+
+
+  
+  .cards{
+    display: flex;
+    margin-top: 30px;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+  .info{
+    background-color: #B3B8AA;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  .project-tile{
+    color: white;
+    text-decoration: none;
+  
+  }
+  
+  .project-tile{
+    color: white;
+    text-decoration: none;
+    content:'';
+  
+  }
+  
+  .project-tile:hover::before{
+    content:'< ';
+  }
+  
+  .project-tile:hover::after{
+    content:' /> ';
+  }
+  
+  button{
+    background: beige;
+    border: none;
+    padding: 20px;
+    color: #B3B8AA;
+    width: 300px;
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 15px;
+      box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.2);
+  }
+  
+  button:hover{
+    transform: scale(105%);
+    cursor: pointer; 
+  }
+  
+  h2{
+    color: white;
+  }
+  
+  #redes{
+    height: 50vh;
+    background-color: #B3B8AA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .socials{
+    display: flex;
+  
+  }
+  .item:hover{
+    color: #B2AD83;
+    font-weight: 700;
+  }
+  .cafe{
+    color: beige;
+  }
+  .social:hover{
+    transform: translateY(5px);
+  }
+  footer{
+    display: flex;
+    justify-content: space-evenly;
+    background: #BFD0D8;
+    height: 50px;
+    align-items: center;
+    color: black;
+  }
+  
+  @media only screen and (max-width: 420px) {
+  .cards{
+  
+    flex-direction: column;
+  }
+  
+    
+  }
